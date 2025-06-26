@@ -1,0 +1,11 @@
+# game settings
+WIDTH = 270
+HEIGHT = 480
+WIN = 270, 480
+FRAME_RATE = 60
+SCROLL_SPEED = 8
+
+# bat settings
+BAT_POS = (WIDTH // 4, HEIGHT // 3)
+BAT_SCALE = 1.5
+BAT_ANIMATION_TIME = 150
