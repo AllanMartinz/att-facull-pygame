@@ -1,27 +1,27 @@
-# ========== Configurações Gerais ==========
+#Config
 SCREEN_WIDTH = 1080
 SCREEN_HEIGHT = 640
 WINDOW_SIZE = SCREEN_WIDTH, SCREEN_HEIGHT
 FRAME_RATE = 60
 
-# ========== Ambiente ==========
+#environment
 SCROLL_VELOCITY = 8
 GRAVITY_FORCE = 1
 
-# ========== Personagem ==========
+#bat
 BAT_START_POS = (SCREEN_WIDTH // 4, SCREEN_HEIGHT // 3)
 BAT_SCALE = 1.5
 BAT_FLAP_INTERVAL = 150       # tempo entre frames da animação
 BAT_JUMP_VELOCITY = -16
 BAT_ROTATE_ANGLE = 25
 
-# ========== Chão ==========
+#ground
 GROUND_HEIGHT = SCREEN_HEIGHT // 12
 GROUND_Y_POS = SCREEN_HEIGHT - GROUND_HEIGHT
 
-# ========== Obstáculos ==========
+#obstacles
 OBSTACLE_WIDTH = 250
 OBSTACLE_HEIGHT = SCREEN_HEIGHT
-OBSTACLE_SPACING = 650
+OBSTACLE_SPACING = 550
 GAP_SIZE = 180
 HALF_GAP = GAP_SIZE // 2

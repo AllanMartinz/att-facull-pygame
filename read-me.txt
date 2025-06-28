@@ -1,0 +1,8 @@
+Aluno: Allan Martins Castilho Ferreira
+Ru: 4739255
+
+Este trabalho foi desenvolvido exclusivamente com a biblioteca Pygame, tendo como inspiração o jogo Flappy Bird. Para facilitar a visualização dos recursos utilizados e do código-fonte, disponibilizo abaixo o link dos assets e o repositório no meu GitHub.
+Assets: https://demonstick-games.itch.io/pixel-art-2d-flappy-bird-like
+Font: https://fonts.google.com/specimen/Jersey+10?preview.text=1234567890&query=pixel
+GitHub: https://github.com/AllanMartinz/att-facull-pygame
+!nota: alguns sprites foi levemente modificados 
