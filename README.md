@@ -1,58 +1,161 @@
-🦇 Flappy Bat
+# 🦇 Flappy Bat
 
 Um jogo inspirado em Flappy Bird desenvolvido em Python utilizando exclusivamente a biblioteca Pygame.
 
-O projeto recria a jogabilidade clássica de desviar obstáculos, mas com uma temática sombria envolvendo um morcego em um cenário pixel art.
+O projeto recria a jogabilidade de desviar obstáculos.
 
-🎮 Gameplay
-Controle um morcego voando por obstáculos infinitos
-Sistema de colisão utilizando máscaras (pygame.mask)
-Física simples com gravidade e impulso
-Animações do personagem
-Contador de pontos
-Sons e música de fundo
-Cenário com movimentação contínua (parallax)
-📸 Recursos do Projeto
-Estrutura principal
-bat.py             -> lógica do jogador
-obstacles.py       -> geração e controle dos obstáculos
-game_objects.py    -> fundo, chão, sons e score
-main.py            -> loop principal do jogo
-settings.py        -> configurações gerais
-Outros arquivos
-assets/            -> sprites, sons e fontes
-FlappyBat.exe      -> versão executável do jogo
-requirements.txt   -> dependências do projeto
-🛠 Tecnologias Utilizadas
-Python 3
-Pygame
-▶️ Como executar
-1. Clone o repositório
+---
+
+# 🎮 Gameplay
+
+- Controle um morcego voando por obstáculos infinitos
+- Sistema de colisão utilizando máscaras (`pygame.mask`)
+- Física simples com gravidade e impulso
+- Animações do personagem
+- Contador de pontos
+- Sons e música de fundo
+- Cenário com movimentação contínua (parallax)
+
+---
+
+# 📁 Estrutura do Projeto
+
+```txt
+.
+├── assets/
+│   ├── audio/
+│   ├── images/
+│   └── font/
+├── bat.py
+├── obstacles.py
+├── game_objects.py
+├── settings.py
+├── main.py
+├── FlappyBat.exe
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🧠 Organização dos Scripts
+
+## `main.py`
+Responsável pelo loop principal do jogo:
+
+- Inicialização do Pygame
+- Carregamento dos assets
+- Atualização dos objetos
+- Renderização da tela
+- Controle de eventos
+
+---
+
+## `bat.py`
+Controla o personagem principal:
+
+- Física e gravidade
+- Pulo
+- Rotação do morcego
+- Animação
+- Colisão
+
+---
+
+## `obstacles.py`
+Responsável pelos obstáculos:
+
+- Criação dos obstáculos superiores e inferiores
+- Movimentação
+- Sistema de pontuação
+- Spawn procedural
+
+---
+
+## `game_objects.py`
+Gerencia objetos auxiliares:
+
+- Fundo
+- Chão
+- Sons
+- Sistema de score
+
+---
+
+## `settings.py`
+Arquivo com todas as configurações do jogo
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+- Python 3
+- Pygame 2.6.1
+
+---
+
+# ▶️ Como Executar
+
+## 1. Clone o repositório
+
+```bash
 git clone https://github.com/AllanMartinz/att-facull-pygame
-2. Entre na pasta
+```
+
+---
+
+## 2. Entre na pasta do projeto
+
+```bash
 cd att-facull-pygame
-3. Instale as dependências
+```
+
+---
+
+## 3. Instale as dependências
+
+```bash
 pip install -r requirements.txt
-4. Execute o jogo
+```
+
+---
+
+## 4. Execute o jogo
+
+```bash
 python main.py
-🎯 Controles
-Ação	Controle
-Voar	Clique do mouse
-📦 Dependências
+```
+
+---
+
+# 🎯 Controles
+
+| Ação | Controle |
+|------|-----------|
+| Voar | Clique do mouse |
+
+---
+
+# 📦 Dependências
+
+```txt
 pygame==2.6.1
-🎨 Créditos
-Assets
+```
 
-Sprites base utilizados no projeto:
+---
 
-Demonstick Games Assets
+# 🎨 Créditos
 
-Fonte
+## Assets
+https://demonstick-games.itch.io/pixel-art-2d-flappy-bird-like
 
-Fonte pixel utilizada no score:
+## Fonte
+https://fonts.google.com/specimen/Jersey+10
 
-Jersey 10 - Google Fonts
+---
 
-📌 Observações
-Alguns sprites foram levemente modificados para o projeto.
-Este projeto foi desenvolvido para fins de estudo e prática com desenvolvimento de jogos em Python.
+# 📌 Observações
+
+- Alguns sprites foram levemente modificados.
+- Projeto desenvolvido para fins de estudo utilizando Pygame.
+- Inspirado no Flappy Bird.
